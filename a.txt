@@ -1,0 +1,18 @@
+
+app.get("/user/tweets/feed", authentication, async (request, response) => {
+  const { username } = request;
+  const query = `SELECT username,tweet,date_time as dateTime FROM (user INNER JOIN follower ON user.user_id=follower.follower_user_id) as T INNER JOIN tweet ON T.following_user_id=tweet.user_id WHERE username='${username}' ORDER BY date_time DESC LIMIT 4;`;
+  const array = await db.all(query);
+  response.send(array);
+});
+
+
+app.get("/tweets/:tweetId", async (request, response) => {
+  const { username } = request;
+  const { tweetId } = request.params;
+  const query = `SELECT tweet,count(like_id) as likes,count(reply) as replies,date_time as dateTime FROM (tweet INNER JOIN reply ON tweet.tweet_id=reply.tweet_id) as T INNER JOIN
+    like ON T.tweet_id=like.tweet_id WHERE like.tweet_id=${tweetId} and like.user_id in (SELECT following_user_id from user inner join follower ON user.user_id=follower.follower_user_id WHERE username='${username}') GROUP BY t.tweet_id
+`;
+  const array = await db.all(query);
+  response.send(array);
+});
