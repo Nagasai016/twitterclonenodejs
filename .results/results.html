@@ -1,0 +1,548 @@
+<html lang="en"><head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>ccbp test reporter</title>
+            <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+	        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/522ee478c4.js" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js"></script>
+            <script src="js/view.js"></script>
+        </head><body><div id="test-results">{
+  &quot;numFailedTestSuites&quot;: 0,
+  &quot;numFailedTests&quot;: 0,
+  &quot;numPassedTestSuites&quot;: 1,
+  &quot;numPassedTests&quot;: 34,
+  &quot;numPendingTestSuites&quot;: 0,
+  &quot;numPendingTests&quot;: 0,
+  &quot;numRuntimeErrorTestSuites&quot;: 0,
+  &quot;numTodoTests&quot;: 0,
+  &quot;numTotalTestSuites&quot;: 1,
+  &quot;numTotalTests&quot;: 34,
+  &quot;openHandles&quot;: [],
+  &quot;snapshot&quot;: {
+    &quot;added&quot;: 0,
+    &quot;didUpdate&quot;: false,
+    &quot;failure&quot;: false,
+    &quot;filesAdded&quot;: 0,
+    &quot;filesRemoved&quot;: 0,
+    &quot;filesRemovedList&quot;: [],
+    &quot;filesUnmatched&quot;: 0,
+    &quot;filesUpdated&quot;: 0,
+    &quot;matched&quot;: 0,
+    &quot;total&quot;: 0,
+    &quot;unchecked&quot;: 0,
+    &quot;uncheckedKeysByFile&quot;: [],
+    &quot;unmatched&quot;: 0,
+    &quot;updated&quot;: 0
+  },
+  &quot;startTime&quot;: 1692181439370,
+  &quot;success&quot;: false,
+  &quot;testResults&quot;: [
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 0,
+      &quot;numPassingTests&quot;: 34,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1692181444461,
+        &quot;runtime&quot;: 3735,
+        &quot;slow&quot;: false,
+        &quot;start&quot;: 1692181440726
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0,
+        &quot;uncheckedKeys&quot;: []
+      },
+      &quot;testFilePath&quot;: &quot;/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 218,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseAn Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;An Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_1&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 130,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/register/&#x27; should return &#x27;User already exists&#x27; as a response if the username already exists&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/register/&#x27; should return &#x27;User already exists&#x27; as a response if the username already exists&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_2&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseA user should not be created if the username already exists in database&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;A user should not be created if the username already exists in database&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_3&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 98,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/register/&#x27; should return &#x27;Password is too short&#x27; as a response if the registrant provides a password with less than 6 characters&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/register/&#x27; should return &#x27;Password is too short&#x27; as a response if the registrant provides a password with less than 6 characters&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_4&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 168,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/register/&#x27; should return &#x27;User created successfully&#x27; text as a response for a successful registration&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/register/&#x27; should return &#x27;User created successfully&#x27; text as a response for a successful registration&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_5&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 110,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe password should be encrypted before creating a user in the database&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The password should be encrypted before creating a user in the database&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_6&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 2,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe user should be created in the database upon the success of the request with path &#x27;/register/&#x27;&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The user should be created in the database upon the success of the request with path &#x27;/register/&#x27;&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_7&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 9,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/login/&#x27; should return &#x27;Invalid user&#x27; text as a response for an unregistered user&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/login/&#x27; should return &#x27;Invalid user&#x27; text as a response for an unregistered user&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_8&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 107,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/login/&#x27; should return &#x27;Invalid password&#x27; text as a response if the user provides an incorrect password&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/login/&#x27; should return &#x27;Invalid password&#x27; text as a response if the user provides an incorrect password&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_9&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 114,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/login/&#x27; should return &#x27;JWT Token&#x27; as a response if the user provides correct credentials&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/login/&#x27; should return &#x27;JWT Token&#x27; as a response if the user provides correct credentials&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_10&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 12,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/tweets/feed/&#x27; with invalid JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/tweets/feed/&#x27; with invalid JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_11&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 14,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/tweets/feed/&#x27; with valid JWT token should return the latest 4 tweets of people whom the user follows&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/tweets/feed/&#x27; with valid JWT token should return the latest 4 tweets of people whom the user follows&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_12&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 19,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/following/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/following/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_13&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 10,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/following/&#x27; with valid JWT token should return the list of all names of people whom the user follows&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/following/&#x27; with valid JWT token should return the list of all names of people whom the user follows&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_14&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 7,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/followers/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/followers/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_15&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 10,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/followers/&#x27; with valid JWT token should return the list of all names of people who follows the user&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/followers/&#x27; with valid JWT token should return the list of all names of people who follows the user&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_16&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 7,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/tweets/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/tweets/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_17&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 24,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return the list of all tweets of the user&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return the list of all tweets of the user&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_18&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 10,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_19&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 12,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_20&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 11,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the tweet&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the tweet&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_21&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 7,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_22&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 8,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_23&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 8,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token and should return the list of usernames who liked the tweet&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token and should return the list of usernames who liked the tweet&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_24&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 8,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_25&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 10,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_26&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 9,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token and should return tweet and the list of all replies&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token and should return tweet and the list of all replies&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_27&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 8,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request to the path &#x27;/user/tweets/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The POST request to the path &#x27;/user/tweets/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_28&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 24,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return `Created a Tweet` text as a response upon success&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The POST request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return `Created a Tweet` text as a response upon success&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_29&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 3,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe database should be updated upon the successful post request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The database should be updated upon the successful post request&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_30&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 11,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe DELETE request to the path &#x27;tweets/:tweetId/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The DELETE request to the path &#x27;tweets/:tweetId/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_31&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 11,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe DELETE request to the path &#x27;tweets/:tweetId/&#x27; with valid JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid Request&#x27; if the tweet doesn&#x27;t belong to the user&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The DELETE request to the path &#x27;tweets/:tweetId/&#x27; with valid JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid Request&#x27; if the tweet doesn&#x27;t belong to the user&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_32&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 23,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe DELETE request to the path &#x27;tweets/:tweetId&#x27; with valid JWT token should return `Tweet Removed` text as a response upon success&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The DELETE request to the path &#x27;tweets/:tweetId&#x27; with valid JWT token should return `Tweet Removed` text as a response upon success&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_33&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 3,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe database should be updated upon the successful delete request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The database should be updated upon the successful delete request&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_34&quot;
+        }
+      ],
+      &quot;failureMessage&quot;: null
+    }
+  ],
+  &quot;wasInterrupted&quot;: false
+}</div></body></html>
